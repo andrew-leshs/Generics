@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        MagicBox<String> magicBox = new MagicBox<String>(2);
-        magicBox.add("Первый");
-        magicBox.add("Второй");
+        MagicBox<Integer> magicBox = new MagicBox<Integer>(2);
+        magicBox.add(2);
+        magicBox.add(3);
         System.out.println(magicBox.pick());
     }
 }
